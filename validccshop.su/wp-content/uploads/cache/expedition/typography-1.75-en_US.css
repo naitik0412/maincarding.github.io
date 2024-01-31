@@ -1,0 +1,522 @@
+@font-face {
+    font-family: 'Open Sans';
+    src: url('https://validccshop.su/wp-content/themes/expedition/design/fonts/opensans/opensans-regular.eot');
+    src: url('https://validccshop.su/wp-content/themes/expedition/design/fonts/opensans/opensans-regular.eot?#iefix') format('embedded-opentype'), url('https://validccshop.su/wp-content/themes/expedition/design/fonts/opensans/opensans-regular.woff') format('woff'), url('https://validccshop.su/wp-content/themes/expedition/design/fonts/opensans/opensans-regular.ttf') format('truetype'), url('https://validccshop.su/wp-content/themes/expedition/design/fonts/opensans/opensans-regular.svg#OpenSansRegular') format('svg');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url('https://validccshop.su/wp-content/themes/expedition/design/fonts/opensans/opensans-condbold.eot');
+    src: url('https://validccshop.su/wp-content/themes/expedition/design/fonts/opensans/opensans-condbold.eot?#iefix') format('embedded-opentype'), url('https://validccshop.su/wp-content/themes/expedition/design/fonts/opensans/opensans-condbold.woff') format('woff'), url('https://validccshop.su/wp-content/themes/expedition/design/fonts/opensans/opensans-condbold.ttf') format('truetype'), url('https://validccshop.su/wp-content/themes/expedition/design/fonts/opensans/opensans-condbold.svg#OpenSansBold') format('svg');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url('https://validccshop.su/wp-content/themes/expedition/design/fonts/opensans/opensans-italic.eot');
+    src: url('https://validccshop.su/wp-content/themes/expedition/design/fonts/opensans/opensans-italic.eot?#iefix') format('embedded-opentype'), url('https://validccshop.su/wp-content/themes/expedition/design/fonts/opensans/opensans-italic.woff') format('woff'), url('https://validccshop.su/wp-content/themes/expedition/design/fonts/opensans/opensans-italic.ttf') format('truetype'), url('https://validccshop.su/wp-content/themes/expedition/design/fonts/opensans/opensans-italic.svg#OpenSansRegular') format('svg');
+    font-weight: 400;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url('https://validccshop.su/wp-content/themes/expedition/design/fonts/opensans/opensans-bolditalic.eot');
+    src: url('https://validccshop.su/wp-content/themes/expedition/design/fonts/opensans/opensans-bolditalic.eot?#iefix') format('embedded-opentype'), url('https://validccshop.su/wp-content/themes/expedition/design/fonts/opensans/opensans-bolditalic.woff') format('woff'), url('https://validccshop.su/wp-content/themes/expedition/design/fonts/opensans/opensans-bolditalic.ttf') format('truetype'), url('https://validccshop.su/wp-content/themes/expedition/design/fonts/opensans/opensans-bolditalic.svg#OpenSansBold') format('svg');
+    font-weight: 700;
+    font-style: italic;
+}
+
+.lang-en_US body {
+    font-family: Arial, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.lang-en_US strong {
+    font-family: Arial, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.lang-en_US em {
+    font-style: italic;
+}
+
+.lang-en_US a.post-edit-link,
+.lang-en_US a.comment-edit-link,
+.lang-en_US a.comment-reply-link {
+    font-family: Open Sans;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.lang-en_US h1 {
+    font-family: Open Sans;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.lang-en_US h2 {
+    font-family: Open Sans;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.lang-en_US h3 {
+    font-family: Open Sans;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.lang-en_US h4 {
+    font-family: Open Sans;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.lang-en_US h5 {
+    font-family: Open Sans;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.lang-en_US h6 {
+    font-family: Open Sans;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.lang-en_US h1 strong,
+.lang-en_US h2 strong,
+.lang-en_US h3 strong,
+.lang-en_US h4 strong,
+.lang-en_US h5 strong,
+.lang-en_US h6 strong {
+    font-weight: normal;
+}
+
+.lang-en_US .page-description {
+    font-family: Open Sans;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.lang-en_US input,
+.lang-en_US textarea,
+.lang-en_US select {
+    font-family: Arial, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.lang-en_US input[type="submit"],
+.lang-en_US input[type="reset"] {
+    font-family: Arial, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.lang-en_US input.search-field {
+    font-family: Open Sans;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.lang-en_US .ui-datepicker {
+    font-family: Arial, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.lang-en_US .ui-datepicker .ui-widget-header {
+    font-family: Open Sans;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.lang-en_US .ui-datepicker table th {
+    font-family: Arial, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.lang-en_US .ui-datepicker table td a.ui-state-default {
+    font-family: Arial, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.lang-en_US .site-logo a,
+.lang-en_US .site-logo a:hover {
+    font-family: Open Sans;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.lang-en_US .site-description {
+    font-family: Open Sans;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.lang-en_US .site-search label .screen-reader-text {
+    font-family: Arial, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.lang-en_US .nav-menu-main>ul>li>a {
+    font-family: Open Sans;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.lang-en_US .page-title h1 {
+    font-family: Open Sans;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.lang-en_US .page-title .entry-data {
+    font-family: Open Sans;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.lang-en_US .hentry .more {
+    font-family: Open Sans;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.lang-en_US .hentry .entry-data {
+    font-family: Open Sans;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.lang-en_US .hentry .tags {
+    font-family: Open Sans;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.lang-en_US .entry-content table thead th {
+    font-family: Arial, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.lang-en_US .entry-content table tbody th {
+    font-family: Arial, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.lang-en_US .entry-content .tabstyle1 table thead th {
+    font-family: Open Sans;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.lang-en_US .wp-caption .wp-caption-text {
+    font-family: Arial, sans-serif;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.lang-en_US .ait-sc-button .title {
+    font-family: Open Sans;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.lang-en_US .elm-easy-slider-main .bx-wrapper li .bx-caption .bx-caption-desc span.bx-link-button {
+    font-family: Open Sans;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.lang-en_US .elm-easy-slider-main ul.easy-slider li .easy-title {
+    font-family: Open Sans;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.lang-en_US .elm-tour-slider .slider-item .slider-title {
+    font-family: Open Sans;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.lang-en_US .elm-tour-slider .slider-item .tour-desc-box .tour-desc a.read-more {
+    font-family: Open Sans;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.lang-en_US .elm-portfolio .filters-wrapper .filter-wrapper .selected {
+    font-family: Open Sans;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.lang-en_US .elm-posts-main .item-info {
+    font-family: Open Sans;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.lang-en_US .elm-tours-main .item-text .item-info {
+    font-family: Open Sans;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.lang-en_US #rating-item-title {
+    font-family: Open Sans;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.lang-en_US .elm-toggles-main .ait-tabs ul.ait-tabs-nav li a {
+    font-family: Open Sans;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.lang-en_US .elm-toggles-main .ait-tabs-vertical li .ait-tab-hover {
+    font-family: Open Sans;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.lang-en_US .elm-toggles-main .ait-tabs .tabs-wrapper .selected {
+    font-family: Open Sans;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.lang-en_US .elm-toggles-main .responsive-tabs-select {
+    font-family: Open Sans;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.lang-en_US .local-toggles .toggle-content .toggle-container {
+    font-family: Arial, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.lang-en_US #gallery-slider-container .navigation {
+    font-family: Open Sans;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.lang-en_US .elm-price-table .table-header .table-price {
+    font-family: Open Sans;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.lang-en_US .elm-price-table .table-button a {
+    font-family: Open Sans;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.lang-en_US .elm-opening-hours-main .day-title h5 {
+    font-family: Arial, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.lang-en_US .elm-countdown-main .clock-data .clock-value {
+    font-family: Open Sans;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.lang-en_US .elm-counters-main .counter-title {
+    font-family: Open Sans;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.lang-en_US .elm-counters-main .counter-type-textbox .type-text {
+    font-family: Open Sans;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.lang-en_US .elm-author-main .member-title .member-position-title {
+    font-family: Arial, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.lang-en_US .elm-author-main .desc-wrap .entry-footer .view-tours {
+    font-family: Open Sans;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.lang-en_US .elm-tours-main .item .item-link-wrap a.item-detail-link {
+    font-family: Open Sans;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.lang-en_US .elm-google-map .gmap-infowindow-content p {
+    font-family: Arial, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.lang-en_US .elm-contact-form-main form p .input-row .input-label .label {
+    font-family: Arial, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.lang-en_US .gallery .gallery-caption {
+    font-family: Arial, sans-serif;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.lang-en_US .entry-date {
+    font-family: Open Sans;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.lang-en_US .comments-link .comments-count {
+    font-family: Arial, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.lang-en_US .hentry.sticky .featured-post {
+    font-family: Arial, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.lang-en_US .commentlist .comment-meta .fn {
+    font-family: Arial, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.lang-en_US #respond h3 small {
+    font-family: Arial, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.lang-en_US #respond form label .required {
+    font-family: Arial, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.lang-en_US .page-numbers,
+.lang-en_US .nav-single a {
+    font-family: Open Sans;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.lang-en_US .widget_posts a.thumb-link h4 {
+    font-family: Arial, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.lang-en_US .widget_calendar caption {
+    font-family: Open Sans;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.lang-en_US .widget_calendar th {
+    font-family: Arial, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.lang-en_US .widget_calendar tbody td#today {
+    font-family: Arial, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.lang-en_US .widget_calendar tbody td a {
+    font-family: Arial, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.lang-en_US .widget_rss .widget-title {
+    font-family: Open Sans;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.lang-en_US .widget_login .userlogin-tabs-menu a {
+    font-family: Open Sans;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.lang-en_US .widget_login .userlogin-tabs-contents input[type="text"],
+.lang-en_US .widget_login .userlogin-tabs-contents input[type="password"],
+.lang-en_US .widget_login .userlogin-tabs-contents input[type="email"],
+.lang-en_US .widget_login .login-submit input[type="submit"],
+.lang-en_US .widget_login .profile a,
+.lang-en_US .widget_login .lost-password {
+    font-family: Open Sans;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.lang-en_US .widget_login .author-posts-count,
+.lang-en_US .widget_login .widgetlogin-button-account,
+.lang-en_US .widget_login .widgetlogin-button-logout {
+    font-family: Open Sans;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.lang-en_US .site-footer a {
+    font-family: Open Sans;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.lang-en_US .shop_table.cart tbody td.product-name .variation dt {
+    font-weight: bold;
+}
+
+.language-icons__icon {
+    font-family: Open Sans;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.ait-woocommerce-cart-widget .cart-count,
+.ait-woocommerce-cart-widget .cart-wrapper .cart-content .total,
+.ait-woocommerce-cart-widget strong,
+.ait-woocommerce-cart-widget .buttons .button,
+.ait-woocommerce-cart-widget .widget_shopping_cart .buttons .button {
+    font-family: Open Sans;
+    font-weight: 700;
+    font-style: normal;
+}
